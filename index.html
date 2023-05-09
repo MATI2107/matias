@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hector matias sandoval</title>
+   
+    
+</head>
+<body>
+   <h1>formulario de matias sandoval</h1>
+   <form action="envio.php" method="post" target="_blank">
+    <label for="usuario">usuario:</label>
+    <input type="text id="usuario" size="tamaño"
+     name="nombre" placeholder="escribe tu usuario" maxlength="10" minlength="4">
+    <label for="contraseña">contraseña:</label>
+    <input type="password" id="password" size="tamaño" 
+    name="password" placeholder="escribe tu contraseña" required>
+    <small>es obligatorio este campo</small>  
+<br>
+<br>
+    <input type="radio" name= "cuestionario" id= "multiple choise"> te gusta el curso que llevas a cabo de programacion
+    <input type="radio" name="lenguajes" value="html"> html  
+    <input type="radio" name="lenguajes" value="css"> css
+    <input type="radio" name="lenguajes" value="javascript"> javascript
+    <input type="radio" name="lenguajes" value="python"> python
+ <br> 
+ <br>  
+ <label for="programando"> cuantos años hace que programas:</label>
+ <input type="number" id=""usuario" size="tamaño" 
+ name="nombre" placeholder= "tiempo porgramando">   
+<br>
+<br>
+    <label for="archivo">subir tu pagina web:</label>
+    <input type="file" id="archivo" size="tamaño" 
+    name="archivo" value= "file">
+<br>
+<br>
+    <label for="opinion">comenta tu experiencia:</label>
+    <textarea type="file" id="opinion" size="tamaño" 
+    name="opinion" placeholder="escribi tu experiencia" cols="30" rows="10"></textarea>
+<br>
+<br>
+    <label for="pais">selecciona tu pais de origen:</label>
+    <select name="pais" id="pais">
+        <optgroup label="america">
+            <option value="argentina">argentina</option>        
+            <option value="estados unidos">estados unidos</option>
+        </optgroup>
+        <optgroup label="europa">
+            <option value="francia">francia</option>
+            <option value="croacia">croacia</option>
+            <option value="marruecos">marruecos</option>
+            <option value="alemania">alemania</option>
+            <option value="italia">italia</option>                
+        </optgroup>
+    <optgroup label="asia">
+        <option value="japon">japon</option>
+        <option value="china">china</option>
+        <option value="corea">corea</option>
+    </optgroup>        
+</select>
+<br>    
+    <input type="submit" value="enviar tus datos">  
+    <input type="reset" value="resetear tus datos">  
+   <input type="button" onclick="alert (anotate en mis clases)" value="saludando">
+<br>
+    <label for="fecha">fecha de nacimiento</label>
+     <input type="date" id="fecha" name="fecha" max="2023-04-13">
+</form>
+
+</body>
+</html>
